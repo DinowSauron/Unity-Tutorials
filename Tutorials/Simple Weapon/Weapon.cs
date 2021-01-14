@@ -93,7 +93,7 @@ public class Weapon : MonoBehaviour
         sparksLog.GetComponent<ParticleSystem>().Play();
 
         if (gameObject.GetComponentInParent<SmoothCam>())
-        { //smooth system
+        {   //smooth system 
             gameObject.GetComponentInParent<SmoothCam>().fired();
         }
 
@@ -113,13 +113,13 @@ public class Weapon : MonoBehaviour
             }
             else
             {
-                //Força aplicada nos rigidbory
+                //Forï¿½a aplicada nos rigidbory
                 hit.transform.gameObject.GetComponent<Rigidbody>().AddForceAtPosition(-(FirePosition.position - hit.point).normalized * 5,hit.point, ForceMode.Impulse);
             }
         }
         else
         {
-            //Rastro caso o tiro não pegue em nenhum objeto
+            //Rastro caso o tiro nï¿½o pegue em nenhum objeto
             line.SetPosition(1, FirePosition.position + (FirePosition.forward * 100));
         }
         line.material.color += new Color(0, 0, 0, (1 - line.material.color.a));

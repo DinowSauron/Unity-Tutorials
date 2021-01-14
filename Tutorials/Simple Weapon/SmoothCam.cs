@@ -6,11 +6,6 @@ public class SmoothCam : MonoBehaviour
 {
     public float intensity;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         float vertical = Input.GetAxis("Mouse Y") * 3;
