@@ -38,12 +38,12 @@ Note que todos os arquivos estão sob a licença MIT, saiba mais sobre a licensa
 
  <br></p>
   <p>
-   <h4>Navmesh Agent System:</h4> 
+   <h4>Pegar Objetos:</h4> 
    <a href="https://www.youtube.com/watch?v=24u8_v5Ijy4">
      <img width="200" align="left" src="https://user-images.githubusercontent.com/68889180/161133915-c420cb04-e105-422f-b0ac-b41d75d26791.jpg" alt="VideoImage"/>
    </a>
    
-   <p>Neste vídeo vimos como utilizar os componentes de Inteligencia Artificial da  unity e aplicamos um sistema para a IA ver o jogador e segui-lo de uma forma realista.</p> 
+   <p>Neste vídeo fazemos um pesonagem pegar objetos do chão, assim como largar os objetos.</p> 
    <a href="https://www.youtube.com/watch?v=iGYW4mofmFg&lc">Video Tutorial</a> <br> 
    <a href="https://github.com/DinowSauron/Unity-Tutorials/tree/main/Tutorials/Segurar Objeto">Arquivos Para Download</a> <br> 
 
